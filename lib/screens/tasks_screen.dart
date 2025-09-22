@@ -57,10 +57,40 @@ class TasksScreen extends StatelessWidget {
                   topRight: Radius.circular(20.0),
                 ),
               ),
+              child: TaskTile(),
             ),
           ),
         ],
       ),
+    );
+  }
+}
+
+class TasksList extends StatelessWidget {
+  const TasksList({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return ListView(
+      children: <Widget>[
+        TaskTile(),
+        ListTile(
+          title: Text("data"),
+          trailing: Checkbox(value: false, onChanged: (bool? value) {}),
+        ),
+      ],
+    );
+  }
+}
+
+class TaskTile extends StatelessWidget {
+  const TaskTile({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return ListTile(
+      title: Text("data"),
+      trailing: Checkbox(value: false, onChanged: (bool? value) {}),
     );
   }
 }
