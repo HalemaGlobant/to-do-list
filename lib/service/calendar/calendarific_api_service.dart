@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:retrofit/http.dart';
-import 'package:todoey/models/calendar_model.dart';
+import 'package:todoey/models/holiday/calendar_model.dart';
 
 part 'calendarific_api_service.g.dart';
 

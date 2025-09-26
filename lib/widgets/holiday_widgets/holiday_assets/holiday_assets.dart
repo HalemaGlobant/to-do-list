@@ -14,8 +14,8 @@ final Map<String, HolidayAssets> holidayAssets = {
     imagePath: 'assets/images/new_year.png',
     announcement: "🎉 Happy New Year!",
   ),
-  "Rosh Hashana": HolidayAssets(
+  "Revolution Day": HolidayAssets(
     imagePath: 'assets/images/Rosh-Hashanah.webp',
-    announcement: "Happy Rosh Hashana Day!",
+    announcement: "Happy Revolution Day!",
   ),
 };
